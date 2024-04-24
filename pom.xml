@@ -35,6 +35,13 @@
   </distributionManagement>
 
   <build>
+           <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-enforcer-plugin -->
+  <plugins>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-enforcer-plugin</artifactId>
+    <version>3.4.1</version>
+    </plugins>
+
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
